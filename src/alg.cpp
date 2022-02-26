@@ -9,7 +9,7 @@ if (value == 2) return true;
 if (value < 2) return false;
 for (uint64_t i = 2; i <= sqrt(value); i++) {
 if (!(value%i)) {
-return false; 
+return false;
 }
 }
 return true;
