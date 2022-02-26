@@ -46,4 +46,3 @@ summa = summa + i;
 }
 }
 return summa;
-
