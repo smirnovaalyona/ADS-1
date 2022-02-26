@@ -16,7 +16,7 @@ return false;
 return true;
 }
 
-uint64_t nPrime(uint64_t n) 
+uint64_t nPrime(uint64_t n) {
 // вставьте код функции
 uint64_t t_num = 0;
 for (uint64_t i = 2; i < UINT64_MAX; i++) {
@@ -28,7 +28,7 @@ return i;
 }
 }
 
-uint64_t nextPrime(uint64_t value) 
+uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
 for (uint64_t i = value + 1; i < UINT64_MAX; i++) {
 if (checkPrime(i)) {
