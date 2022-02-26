@@ -1,5 +1,6 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
+#include <cmath>
 #include "alg.h"
 
 
@@ -26,14 +27,12 @@ if (n == t_num) {
 return i;
 }
 }
-}
 
 uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
 for (uint64_t i = value + 1; i < UINT64_MAX; i++) {
 if (checkPrime(i)) {
 return i;
-}
 }
 }
 
