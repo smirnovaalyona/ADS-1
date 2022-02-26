@@ -35,6 +35,7 @@ if (checkPrime(i)) {
 return i;
 }
 }
+}
 
 uint64_t sumPrime(uint64_t hbound) {
 // вставьте код функции
@@ -45,3 +46,4 @@ summa = summa + i;
 }
 }
 return summa;
+}
