@@ -40,7 +40,7 @@ return i;
 uint64_t sumPrime(uint64_t hbound) {
 // вставьте код функции
 uint64_t summa = 0;
-for (int i = 2; i < hbround; i++) {
+for (int i = 2; i < hbound; i++) {
 if (checkPrime(i)) {
 summa = summa + i;
 }
